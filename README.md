@@ -4,5 +4,7 @@ Mengontrol Mikrotik hotspot menggunakan Bot Telegram (Node JS)
 - Add User
 - Edit User
 # Cara menjalankan
-untuk menjalankan Source code ini, dengan cara
-`npm install && npm run`
+1. Download dan Install Node JS terlebih dahulu
+2. Clone/Download repository ini, dan ke folder project ini
+3. untuk install library, ketik `npm install`
+4. Setelah install library, baru anda ketik `npm run` atau `node main`
