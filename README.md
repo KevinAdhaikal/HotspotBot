@@ -1,8 +1,10 @@
 # HotspotBot
 Mengontrol Mikrotik/RouterOS hotspot menggunakan Bot Telegram (Node JS)
 # Fitur
-- Add User
-- Edit User
+- [X] Add User
+- [X] Edit User
+- [ ] Add User Profile
+- [ ] Edit User Profile 
 # Tampilan
 ![image](https://user-images.githubusercontent.com/109958650/233017742-56a24e38-4f8d-4363-a39a-eabd7fac2492.png)
 # Cara menjalankan
