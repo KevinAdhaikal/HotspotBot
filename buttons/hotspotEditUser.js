@@ -3,6 +3,13 @@ const publicFunc = require("../publicFunc")
 module.exports = {
     async execute(bot, msg, button, userData, valButton) {
         if (valButton) {
+            if (valButton.includes("nextData")) {
+                return await bot.editMessageText(`Kamu berada di Menu Edit User`, {
+                    chat_id: msg.chat.id,
+                    message_id: msg.message_id,
+                    ... await publicFunc.nextBackButton(bot, userData, "/ip/hotspot/user/print", valButton.slice(8), "hotspotEditUser", "hotspotUser")
+                })
+            }
             if (!userData.editUser || !userData.editUser.username) {
                 userData.editUser = {}
                 var temp = await publicFunc.sendMikrotik(bot, userData, msg.chat.id, "/ip/hotspot/user/print")
