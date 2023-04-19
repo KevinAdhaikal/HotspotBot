@@ -1,5 +1,5 @@
 # HotspotBot
-Mengontrol Mikrotik hotspot menggunakan Bot Telegram (Node JS)
+Mengontrol Mikrotik/RouterOS hotspot menggunakan Bot Telegram (Node JS)
 # Fitur
 - Add User
 - Edit User
