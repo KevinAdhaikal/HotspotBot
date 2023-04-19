@@ -16,3 +16,5 @@ Mengontrol Mikrotik/RouterOS hotspot menggunakan Bot Telegram (Node JS)
 1. Membuat bot terlebih dahulu di Telegram (cari di tutorial)
 2. ambil token bot
 3. taruh di config.json
+# Masalah/Masukan
+Jika anda punya masalah/masukan tentang source code ini, kamu bisa membuat issue di https://github.com/KevinAdhaikal/HotspotBot/issues
